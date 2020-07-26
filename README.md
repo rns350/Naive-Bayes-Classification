@@ -25,7 +25,9 @@ take xlsx files as input.  The required dependencies must be provided to
 work.  Class files are already included to make running easier.
 
 (if needed) compile with:
-    `javac (-cp Apache POI Libraries) Classify.java Data.java Frequencies.data LogProbability.java`
+   
+`javac (-cp Apache POI Libraries) Classify.java Data.java Frequencies.data LogProbability.java`
 
 run with:
-    `java (-cp Apache POI Libraries) Classify [file path][training num][testing num][-v (verbose, optional)]`
+
+`java (-cp Apache POI Libraries) Classify [file path][training num][testing num][-v (verbose, optional)]`

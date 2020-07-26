@@ -12,7 +12,8 @@ public class LogProbability{
     double probA6_3; //logarithmic probability taht a6 = 3
 
     /**Construtor that takes a Frequencies objects and calculates its logarithmic
-     * probabilities at all values A6 = (1 - 3) and a1 - a5 = (1 - 4)
+     * probabilities at all values A6 = (1 - 3) and a1 - a5 = (1 - 4).  The probabilities
+     * are calculated with a Laplace smoothing factor of 0.1.
      * 
      * @param frequence - frequencies of occurances of ax and a6 = (1 - 3)
      * @param instances - total number of data pieces in frequence

@@ -1,13 +1,13 @@
 import java.util.Arrays;
 /**Class that holds the number of occurances of each attribute at a given value,
- * coinsiding with the classification attribute a6 at a given value
+ * coinciding with the classification attribute a6 at a given value
  * 
  * @author Reed Nathaniel Schick
  */
 public class Frequencies{
-    int[][] v1 = new int[5][4]; //occurances of each attribute at any given value, coinsiding with A6 = 1
-    int[][] v2 = new int[5][4]; //occurances of each attribute at any given value, coinsiding with A6 = 2
-    int[][] v3 = new int[5][4]; //occurances of each attribute at any given value, coinsiding with A6 = 3
+    int[][] v1 = new int[5][4]; //occurances of each attribute at any given value, coinciding with A6 = 1
+    int[][] v2 = new int[5][4]; //occurances of each attribute at any given value, coinciding with A6 = 2
+    int[][] v3 = new int[5][4]; //occurances of each attribute at any given value, coinciding with A6 = 3
 
     /**This method takes one piece of data and records it's
      * data in their proper places in the array.  The array to

@@ -12,9 +12,11 @@ The program will output the overall accuracy on the test set.  It will also outp
 
 If verbose is specified, then the values of the negative log probabilities for each individual pair `(X.a(y) = z | X.a6 = q)` will be output to terminal as well.  Namely, the output will be displayed in a grid like format, where each grid element contains 3 numbers for each possible value of `a6`.  The row number represents the value `y`, and the column number represents the value `z`.  So, for example, `grid(1,2)` contains:
 
-```lp(X.a1 = 2|X.a6 = 1)  
+```
+lp(X.a1 = 2|X.a6 = 1)  
 lp(X.a1 = 2|X.a6 = 2)  
-lp(X.a1 = 2|X.a6 = 3)  ```
+lp(X.a1 = 2|X.a6 = 3)
+```
 
 ## How to run
 
@@ -23,7 +25,7 @@ take xlsx files as input.  The required dependencies must be provided to
 work.  Class files are already included to make running easier.
 
 (if needed) compile with:
-    javac (-cp Apache POI Libraries) Classify.java Data.java Frequencies.data LogProbability.java
+    `javac (-cp Apache POI Libraries) Classify.java Data.java Frequencies.data LogProbability.java`
 
 run with:
-    java (-cp Apache POI Libraries) Classify [file path][training num][testing num][-v (verbose, optional)]
+    `java (-cp Apache POI Libraries) Classify [file path][training num][testing num][-v (verbose, optional)]`

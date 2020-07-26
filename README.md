@@ -10,9 +10,9 @@ The program will output the overall accuracy on the test set.  It will also outp
 
 If verbose is specified, then the values of the negative log probabilities for each individual pair (X.a(y) = z | X.a6 = q)will be output to terminal as well.  Namely, the output will be displayed in a grid like format, where each grid element contains 3 numbers for each possible value of a6.  The row number represents the value y, and the column number represents the value z.  So, for example, grid(1,2) contains:
 
-lp(X.a1 = 2|X.a6 = 1)
-lp(X.a1 = 2|X.a6 = 2)
-lp(X.a1 = 2|X.a6 = 3)
+lp(X.a1 = 2|X.a6 = 1)  
+lp(X.a1 = 2|X.a6 = 2)  
+lp(X.a1 = 2|X.a6 = 3)  
 
 This project relies on Apache POI to read excel xlsx files.  It can only
 take xlsx files as input.  The required dependencies must be provided to
